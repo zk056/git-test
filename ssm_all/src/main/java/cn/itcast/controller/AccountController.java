@@ -33,4 +33,7 @@ public class AccountController {
         modelAndView.setViewName("accountList");
         return modelAndView;
     }
+    public void show(){
+        System.out.println("你好啊");
+    }
 }
